@@ -8,9 +8,7 @@ public class Mensaje {
         System.out.println(mensaje);
         Scanner scn = new Scanner(System.in);
         return scn.nextLine();
-
     }
-
     public void saludar(String nombre) {
         System.out.printf("Hola %s, bienvenido a java ", nombre);
     }
